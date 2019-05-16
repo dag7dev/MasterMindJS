@@ -1,0 +1,37 @@
+red blue magenta yellow green orange violet
+
+SEQ: red red blue blue
+INP: red red red red
+
+[1] -> red -> 	nella seq? si
+				nel posto giusto? si	----> quadrato nero
+
+
+[2] -> red -> 	nella seq? si
+				nel posto giusto? si	----> quadrato nero
+
+
+[3] -> red -> 	nella seq? si
+				nel posto giusto? no	----> quadrato grigio
+
+
+[4] -> red -> 	nella seq? si
+				nel posto giusto? no	----> quadrato grigio
+
+SEQ: red red blue blue
+INP: orange red pink blue
+
+[1] -> ora -> 	nella seq? no
+				nel posto giusto? no	----> quadrato bianco
+
+
+[2] -> red -> 	nella seq? si
+				nel posto giusto? si	----> quadrato nero
+
+
+[3] -> pin -> 	nella seq? no
+				nel posto giusto? no	----> quadrato bianco
+
+
+[4] -> blu -> 	nella seq? si
+				nel posto giusto? si	----> quadrato nero
